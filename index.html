@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsha Movva | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h1 class="logo">Harsha Movva</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Harsha Movva</span></h2>
+      <p>A 3rd-year Data Science student at GITAM University, passionate about data analysis, machine learning, and AI-driven solutions.</p>
+    </div>
+    <div class="hero-img">
+      <img src="profile.jpg" alt="Harsha Profile Photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m a Data Science enthusiast skilled in Python, R, SQL, machine learning, data visualization, and NLP. I enjoy analyzing complex datasets, building predictive models, and creating impactful solutions that leverage data to solve real-world problems.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Self Portfolio</h3>
+      <p>My personal portfolio website built using HTML & CSS to showcase projects and skills in Data Science. 
+         <a href="#">View Project</a>
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Cpp-Library-Manager</h3>
+      <p>A C++ library management system that can be extended for data management and analytics applications. 
+         <a href="#">View Project</a>
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Android Task Tracker</h3>
+      <p>An Android app to track daily tasks and schedules, with potential integration of data analytics for productivity insights. 
+         <a href="#">View Project</a>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:munnamovva5@gmail.com">munnamovva5@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Harsha-Movva" target="_blank">github.com/Harsha-Movva</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Harsha Movva. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
